@@ -1,7 +1,7 @@
-let num1 = 2
-let num2 = 5
+let num1 = parseInt(prompt("Ingrese un número"));
+let num2 = parseInt(prompt("Ingrese otro número"));
 if(num1 > num2){
-    console.log(num1);
+    document.write(num1 +" es el mayor");
 } else{
-    console.log(num2);
+    document.write(num2 + " es el mayor");
 }
