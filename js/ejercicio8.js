@@ -1,6 +1,6 @@
-let numero = 8
+let numero = parseInt(prompt("Ingresa un número"));
 if(numero % 2 === 0){
-    console.log("Es divisible por 2")
+    document.write("Es divisible por 2");
 }else{
-    console.log("No es divisible por 2")
+    document.write("No es divisible por 2");
 }
