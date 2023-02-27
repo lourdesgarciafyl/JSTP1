@@ -1,3 +1,3 @@
-let numero1 = 20
-let numero2 = 20
-document.write(numero1 + numero2)
+let numero1 = parseInt(prompt("Ingrese un número"))
+let numero2 = parseInt(prompt("Ingrese otro número"))
+document.write("La suma de estos numeros es " + (numero1 + numero2))
