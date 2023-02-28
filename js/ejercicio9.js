@@ -1,2 +1,6 @@
-let frase = "Aprendiendo a programar";
-document.write(" 'Aprendiendo a programar' tiene las vocales "+frase.charAt(12)+" "+frase.charAt(3)+" "+frase.charAt(6)+" "+frase.charAt(10));
+let frase = parseInt(prompt("Escribí una frase...(la del comentario por favor!)"));
+if( frase.charAt(0) == "e" ){
+    document.write("e")
+}
+
+// FRASE: estoy aprendiendo
